@@ -53,6 +53,8 @@ public class Evaluacion {
     }
      
     @Override
+    //metodo de sobreescritura para convertir un objeto 
+    //Evaluacion en una cadena de texto que resume su contenido de forma legible
     public String toString() {
         StringBuilder sb = new StringBuilder();
         sb.append("Evaluacion: ").append(titulo).append("\n");
