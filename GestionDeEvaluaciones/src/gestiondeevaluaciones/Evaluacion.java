@@ -68,5 +68,9 @@ public class Evaluacion {
         }
         return sb.toString();
     } 
+
+    Object getTitulo() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }
